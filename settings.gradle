@@ -1,0 +1,2 @@
+include ':GenericTracker-Demo', ':GenericTracker'
+include ':libs'
