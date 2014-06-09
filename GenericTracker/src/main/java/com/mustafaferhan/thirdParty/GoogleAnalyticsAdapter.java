@@ -31,10 +31,13 @@ public class GoogleAnalyticsAdapter extends Implementer {
         mTracker = GoogleAnalytics.getInstance(getContext()).getTracker(getKey());
     }
 
+    /**
+     * not applicable for GoolgeAnalytics
+     * */
+    @Deprecated
     @Override
     public void onStopSession() {
 
-        //not applicable for GoolgeAnalytics
     }
 
     @Override
